@@ -1,0 +1,2 @@
+
+alert tcp 192.168.1.0/1080(content:"hostip";offset:10;depth:10;msg:"TEST ALERT";)
